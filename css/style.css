@@ -1,0 +1,20 @@
+header {
+    font-style: inherit;
+    color: red;
+    background-color: black;
+
+}
+
+nav a:hover {
+    background-color: springgreen;
+  } 
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
