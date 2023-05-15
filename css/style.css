@@ -6,15 +6,38 @@ header {
 }
 
 nav a:hover {
-    background-color: springgreen;
+    background-color: red;
   } 
 
   a:link, a:visited {
-    background-color: #f44336;
+    background-color: black;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
-  
+  nav {
+    text-align: center;
+    justify-content: space-around;
+    font-style: italic;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+img {
+  float: left;
+}
+p1 {
+  font-style: arial;
+font-size: larger;
+
+}
+h1 {
+  font-style: oblique;
+}
